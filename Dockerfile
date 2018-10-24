@@ -8,6 +8,7 @@ RUN apt-get update
 RUN apt-get upgrade -y
 RUN apt-get install -y curl
 RUN apt-get install -y apt-utils
+RUN apt-get install build-essential
 
 #RUN dpkg -i *.deb
 RUN DEBIAN_FRONTEND=noninteractive
