@@ -15,4 +15,4 @@ RUN apt-get install -y nginx
 RUN apt-get install -y mysql-server
 RUN apt-get install -y beanstalkd
 RUN php -r "readfile('https://getcomposer.org/installer');" | php
-RUN mv composer.phar /usr/local/bin/composer.phar
+RUN mv composer.phar /usr/local/bin/composer
